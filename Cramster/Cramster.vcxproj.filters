@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Palindrome">
+      <UniqueIdentifier>{a367a56e-b621-4243-bf57-89943a554e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sets">
+      <UniqueIdentifier>{9a0975dc-2097-4ddb-8e67-758c1f9cc797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SimplePrograms">
+      <UniqueIdentifier>{931ec98b-3db5-4d0f-b9e1-ee6e111619a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{4eef7777-531e-429a-bc4a-821492431532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\TicTacToe">
+      <UniqueIdentifier>{5bfb2871-7b6c-4d9e-b577-79a612eb8be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\TicTacToe\Header">
+      <UniqueIdentifier>{40538a7a-02d5-41bc-851a-9412932a93df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\TicTacToe\Implementation">
+      <UniqueIdentifier>{03fd6f69-7d1d-465d-a4c2-0b9ff4d53c66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="README_TicTacToe.txt">
+      <Filter>Source Files\Game\TicTacToe</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Palindrome.h">
+      <Filter>Source Files\Palindrome</Filter>
+    </ClInclude>
+    <ClInclude Include="Computer.h">
+      <Filter>Source Files\Game\TicTacToe\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Game\TicTacToe\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TicTacToe.h">
+      <Filter>Source Files\Game\TicTacToe\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Source Files\Game\TicTacToe\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromeMain.cpp">
+      <Filter>Source Files\Palindrome</Filter>
+    </ClCompile>
+    <ClCompile Include="Palindrome.cpp">
+      <Filter>Source Files\Palindrome</Filter>
+    </ClCompile>
+    <ClCompile Include="Sets.cpp">
+      <Filter>Source Files\Sets</Filter>
+    </ClCompile>
+    <ClCompile Include="LexicoSort.cpp">
+      <Filter>Source Files\SimplePrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure.cpp">
+      <Filter>Source Files\SimplePrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseNumber.cpp">
+      <Filter>Source Files\SimplePrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="SumAndAverage.cpp">
+      <Filter>Source Files\SimplePrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Game\TicTacToe</Filter>
+    </ClCompile>
+    <ClCompile Include="Computer.cpp">
+      <Filter>Source Files\Game\TicTacToe\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game\TicTacToe\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Source Files\Game\TicTacToe\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="TicTacToe.cpp">
+      <Filter>Source Files\Game\TicTacToe\Implementation</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
